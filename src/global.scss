@@ -25,6 +25,24 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-.global_splash {
-    --background: #030D13
+.athena-font-bold { font-weight: bold;}
+.athena-font-lighter { font-weight: lighter;}
+
+.athena-font-13 { font-size: 13px; }
+.athena-font-17 { font-size: 17px; }
+.athena-font-22 { font-size: 22px; }
+.athena-font-27 { font-size: 27px; }
+
+.athena-font-white { color: white;}
+.athena-font-black { color: black;}
+
+.athena-margin-left-5 { margin-left: 5x; }
+.athena-margin-left-10 { margin-left: 10px; }
+
+.athena-link-button {
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-start: 0px;
+    --padding-end: 0px;
+
 }

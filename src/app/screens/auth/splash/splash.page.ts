@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Platform } from '@ionic/angular';
 
 @Component({
   selector: 'app-splash',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SplashPage implements OnInit {
 
-  constructor() { }
+  rowWidth; any;
+  rowHeight: any;
+  constructor(
+    public platfrom: Platform
+  ) {}
 
   ngOnInit() {
+    this.rowHeight = this.platfrom.height() + 'px';
+    this.rowWidth = this.platfrom.width() + 'px';
   }
 
 }
